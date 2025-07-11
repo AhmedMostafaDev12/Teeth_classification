@@ -6,7 +6,7 @@ from tensorflow.keras.applications.efficientnet import preprocess_input
 from tensorflow.keras.models import load_model
 
 # Load model
-model = load_model("efficientnet_model(1).h5")
+model = load_model("efficientnet_model_2.h5")
 
 # Class names – update to your actual class labels
 class_names = ['CaS', 'CoS', 'Gum', 'MC', 'OC', 'OLP', 'OT']
